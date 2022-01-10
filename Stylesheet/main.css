@@ -1,17 +1,41 @@
 body
 {
-    background-color: #151515;
+    /* background-color: black; */
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.295)), 
+    url(../images/nycview.jpg);
+    background-position: bottom;
     color: azure;
     font-family: "Nunito",sans-serif;
+    
 }
 
-#itsme {
-    font-family: 'Krona One', sans-serif;
+
+#itstanji {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
+    font-weight: 700;
     font-size: 70px;
     color: #FFFFFF;
+    position: absolute;
+
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+    margin: 0;
+
 }
 
+#mainNavbar {
+    background-color: black;
+}
+
+#footie{
+    background-color: black;
+}
  
 * {
     padding: 0;
@@ -75,103 +99,6 @@ header#topbar {
 #bar a:hover {
     color: rgb(0, 253, 42);
     transition: .5s;
-}
-
-#itsme {
-    margin: 65px 50px 35px;
-}
-
-#top-text {
-    text-align: center;
-    margin: 50px 200px 25px;
-}
-
-#actualimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-  height: auto;
-}
-
-#hobbies {
-    display: block;
-    margin:0 auto;
-}
-
-
-.container-hobbies-list{
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 65%;
-    /* border-style: dashed; */
-}
-
-#hobbies h2 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 25px ;
-    margin-bottom: 25px ;
-}
-
-
-#hobbies li {
-    font-size: 25px;
-    padding-bottom: 10px;
-    text-align: left;
-    list-style-position: inside;
-}
-
-/* footer{
-    padding: 0 20px;
-    background-color: #301B3F;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-footer ul{
-    float:none;
-}
-footer ul li{
-    display: inline-block;
-    padding: 10px;
-}
-
-footer a {
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    color: aliceblue;
-    align-items: center;
-}
-
-footer a:hover {
-    color: rgb(0, 253, 42);
-    transition: .5s;
-} */
-
-
-
-#skill {
-
-    color: aqua;
-
-}
-
-#notableskills {
-    text-align: center;
-    font-weight: bold;
-    font-size: x-large;
-    margin: 20px 20px;
-}
-
-#list {
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
 }
 
 
