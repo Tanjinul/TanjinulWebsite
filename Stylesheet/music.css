@@ -1,0 +1,218 @@
+body
+{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.61)), 
+    url(../images/bridge.jpg);
+    background-position: center;
+    color: azure;
+    font-family: "Nunito",sans-serif;
+}
+
+#itsme {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainNavbar {
+    background-color: black;
+}
+
+#footie{
+    background-color: black;
+}
+
+#mainNavbar .navbar-brand
+{
+    color:  #ffffff;
+    font-size:x-large;
+    font-weight: 900;
+}
+
+#mainNavbar .nav-link:hover
+{
+    color:  #65ff00;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+
+
+header a {
+    text-decoration: none;
+}
+
+header#topbar {
+    padding: 0 20px;
+    background-color: #301B3F;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name {
+    font-weight: bolder;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+#bar {
+    float: left;
+}
+
+#bar li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#bar a {
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    color: aliceblue;
+}
+
+/* Selects any <a> element when "hovered" */
+#bar a:hover {
+    color: rgb(0, 253, 42);
+    transition: .5s;
+}
+
+#itsme {
+    margin: 65px 50px 35px;
+}
+
+#top-text {
+    text-align: center;
+    margin: 50px 200px 25px;
+}
+
+#actualimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: auto;
+}
+
+#hobbies {
+    display: block;
+    margin:0 auto;
+}
+
+
+.container-hobbies-list{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 65%;
+    /* border-style: dashed; */
+}
+
+#hobbies h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+}
+
+
+#hobbies li {
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+    list-style-position: inside;
+}
+
+
+
+#skill {
+
+    color: aqua;
+
+}
+
+#notableskills {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 20px 20px;
+}
+
+#list {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+
+@media (max-width: 768px) {
+    .container-hobbies-list {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:580px) {
+
+    #top-text {
+        font-size: 10px;
+        text-align: center;
+        margin: 30px 100px 25px;
+    }
+
+    #itsme {
+        font-family: 'Krona One', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        color: #FFFFFF;
+    }
+
+    .container-hobbies-list {
+        display: block;
+    }
+
+    #hobbies li {
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    #hobbies h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 25px ;
+        margin-bottom: 25px ;
+    }
+
+    #actualimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: auto;
+    }
+    
+}
+
+
+
+  
+
