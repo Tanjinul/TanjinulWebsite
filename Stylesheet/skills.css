@@ -1,9 +1,6 @@
 body
 {
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.61)), 
-    url(../images/galaxybg.jpg);
-    background-position: center;
+    background-color: #151515;
     color: azure;
     font-family: "Nunito",sans-serif;
 }
@@ -20,14 +17,6 @@ body
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-#mainNavbar {
-    background-color: black;
-}
-
-#footie{
-    background-color: black;
 }
 
 #mainNavbar .navbar-brand
@@ -138,6 +127,35 @@ header#topbar {
     text-align: left;
     list-style-position: inside;
 }
+
+/* footer{
+    padding: 0 20px;
+    background-color: #301B3F;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    float:none;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+footer a {
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+}
+
+footer a:hover {
+    color: rgb(0, 253, 42);
+    transition: .5s;
+} */
 
 
 
