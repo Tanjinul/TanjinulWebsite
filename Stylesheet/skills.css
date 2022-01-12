@@ -1,6 +1,9 @@
 body
 {
-    background-color: #151515;
+    background-image: url('../images/oceanreef.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
     color: azure;
     font-family: "Nunito",sans-serif;
 }
@@ -9,7 +12,7 @@ body
     font-family: 'Krona One', sans-serif;
     text-align: center;
     font-size: 70px;
-    color: #FFFFFF;
+    color: #89e2c7;
 }
 
  
@@ -35,147 +38,26 @@ body
     margin-top: 100px;
 }
 
-
-
-header a {
-    text-decoration: none;
-}
-
-header#topbar {
-    padding: 0 20px;
-    background-color: #301B3F;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#name {
-    font-weight: bolder;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    color: aliceblue;
-}
-
-
-#bar {
-    float: left;
-}
-
-#bar li {
-    display: inline-block;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-#bar a {
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    color: aliceblue;
-}
-
-/* Selects any <a> element when "hovered" */
-#bar a:hover {
-    color: rgb(0, 253, 42);
-    transition: .5s;
-}
-
 #itsme {
-    margin: 65px 50px 35px;
+    margin: 65px 0px 35px;
 }
 
-#top-text {
-    text-align: center;
-    margin: 50px 200px 25px;
-}
-
-#actualimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-  height: auto;
-}
-
-#hobbies {
-    display: block;
-    margin:0 auto;
-}
-
-
-.container-hobbies-list{
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 65%;
-    /* border-style: dashed; */
-}
-
-#hobbies h2 {
-    text-align: center;
+#skillist{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    margin-top: 25px ;
-    margin-bottom: 25px ;
+    font-weight: 400;
+    display: table;
+    margin: 0 auto;
+    /* margin-left: 650px; */
+    list-style-type: none;
 }
 
 
-#hobbies li {
-    font-size: 25px;
-    padding-bottom: 10px;
-    text-align: left;
-    list-style-position: inside;
-}
+@media (min-width:1441px) {
+    #skillist li{
+        padding-bottom: 15px;
+    }
 
-/* footer{
-    padding: 0 20px;
-    background-color: #301B3F;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-footer ul{
-    float:none;
-}
-footer ul li{
-    display: inline-block;
-    padding: 10px;
-}
-
-footer a {
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    color: aliceblue;
-    align-items: center;
-}
-
-footer a:hover {
-    color: rgb(0, 253, 42);
-    transition: .5s;
-} */
-
-
-
-#skill {
-
-    color: aqua;
-
-}
-
-#notableskills {
-    text-align: center;
-    font-weight: bold;
-    font-size: x-large;
-    margin: 20px 20px;
-}
-
-#list {
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
 }
 
 
@@ -186,6 +68,28 @@ footer a:hover {
         text-align: center;
         width: 100%;
     }
+
+    #itsme {
+        font-family: 'Krona One', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        color: #89e2c7;
+    }
+
+    #skillist{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        display: table;
+        margin: 0 auto;
+        /* margin-left: 650px; */
+        list-style-type: none;
+    }
+
+    #skillist li{
+        padding-bottom: 25px;
+    }
+
 }
 
 @media (max-width:580px) {
@@ -200,7 +104,7 @@ footer a:hover {
         font-family: 'Krona One', sans-serif;
         text-align: center;
         font-size: 50px;
-        color: #FFFFFF;
+        color: #89e2c7;
     }
 
     .container-hobbies-list {
@@ -226,6 +130,20 @@ footer a:hover {
         margin-right: auto;
         width: 75%;
         height: auto;
+    }
+
+    #skillist{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        display: table;
+        margin: 0 auto;
+        /* margin-left: 650px; */
+        list-style-type: none;
+    }
+
+    #skillist li{
+        padding-bottom: 10px;
     }
     
 }
