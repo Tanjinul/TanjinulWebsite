@@ -1,0 +1,165 @@
+body
+{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), 
+    url(../images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    color: azure;
+    font-family: "Nunito",sans-serif;
+}
+
+#itsme {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: azure;
+    
+}
+
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainNavbar {
+    background-color: black;
+}
+
+#footie{
+    background-color: black;
+}
+
+#mainNavbar .navbar-brand
+{
+    color:  #ffffff;
+    font-size:x-large;
+    font-weight: 900;
+}
+
+#mainNavbar .nav-link:hover
+{
+    color:  #65ff00;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#itsme {
+    margin: 65px 0px 35px;
+}
+
+#skillist{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    display: table;
+    margin: 0 auto;
+    /* margin-left: 650px; */
+    list-style-type: none;
+}
+
+
+@media (min-width:1441px) {
+    #skillist li{
+        padding-bottom: 15px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .container-hobbies-list {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #itsme {
+        font-family: 'Krona One', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        color: azure;
+    }
+
+    #skillist{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        display: table;
+        margin: 0 auto;
+        /* margin-left: 650px; */
+        list-style-type: none;
+    }
+
+    #skillist li{
+        padding-bottom: 25px;
+    }
+
+}
+
+@media (max-width:580px) {
+
+    #top-text {
+        font-size: 10px;
+        text-align: center;
+        margin: 30px 100px 25px;
+    }
+
+    #itsme {
+        font-family: 'Krona One', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        color: azure;
+    }
+
+    .container-hobbies-list {
+        display: block;
+    }
+
+    #hobbies li {
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    #hobbies h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 25px ;
+        margin-bottom: 25px ;
+    }
+
+    #actualimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: auto;
+    }
+
+    #skillist{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        display: table;
+        margin: 0 auto;
+        /* margin-left: 650px; */
+        list-style-type: none;
+    }
+
+    #skillist li{
+        padding-bottom: 10px;
+    }
+    
+}
+
+
+
+  
+
