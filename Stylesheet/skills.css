@@ -1,6 +1,8 @@
 body
 {
-    background-image: url('../images/oceanreef.gif');
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), 
+    url(../images/jpncity.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom;
@@ -12,7 +14,7 @@ body
     font-family: 'Krona One', sans-serif;
     text-align: center;
     font-size: 70px;
-    color: #ff66b3;
+    color: #89e2c7;
 }
 
  
