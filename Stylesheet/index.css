@@ -19,6 +19,10 @@ body
     box-sizing: border-box;
 }
 
+#headingGroup {
+    font-size: xx-large;
+}
+
 #mainNavbar .navbar-brand
 {
     color:  #ffffff;
