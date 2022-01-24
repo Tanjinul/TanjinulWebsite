@@ -101,6 +101,21 @@ header#topbar {
     transition: .5s;
 }
 
+#twit {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#git {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#emai {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 @media (max-width: 768px) {
     .container-hobbies-list {

@@ -62,6 +62,21 @@ body
     list-style-type: none;
 }
 
+#twit {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#git {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#emai {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 @media (min-width:1441px) {
     #skillist li{
