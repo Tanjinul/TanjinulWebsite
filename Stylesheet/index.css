@@ -143,6 +143,21 @@ header#topbar {
     list-style-position: inside;
 }
 
+#twit {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#git {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#emai {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* footer{
     padding: 0 20px;
     background-color: #301B3F;
